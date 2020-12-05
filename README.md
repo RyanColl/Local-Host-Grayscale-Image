@@ -1,1 +1,2 @@
 # Local-Host-Grayscale-Image
+Using a local host server set up through Node JS and the HTTP module, an uploaded png image is gathered from the front end using the formidable library in Node JS, a grayscaling function is used to grayscale the image. fs.readFile and toString turns the html file into a string, inserting the image link into the src attribute in the string, writing the string to a file, and streaming the newly written file with regular and grayscaled images to the front end browser to display the new html page.
