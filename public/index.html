@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Milestone 2</title>
+    <link href="https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="headerleft"></div>
+        <div class="h1">
+            <h1 id="milestone">My Photo Album</h1>
+            <nav id="buttons">
+                <form action="/upload" enctype="multipart/form-data" method="post">
+                    <div id="pngfiles">File: <input type="file" name="multipleFiles" multiple="multiple" /><input id='input' type="submit" value="Upload" /></div>
+                </form>
+            </nav>
+        </div>
+        <div class="headerright"></div>
+    </header>
+    <main>
+        <div class="left"></div>
+        <div class="middle">
+            <div class="midleft"><img id='image' src=''></div>
+            <div class="midright"><img id='gsimage' src=''></div>
+            <script src="js/readfile.js" defer></script>
+        </div>
+        <div class="right"></div>
+    </main>
+    <footer>
+        <div class="footerleft"></div>
+        <div class="footermiddle"></div>
+        <div class="footerright"></div>
+    </footer>
+</body>
+</html>

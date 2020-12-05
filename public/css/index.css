@@ -1,0 +1,83 @@
+body {
+    border-radius: 400px;
+    height: 800px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr;
+}
+header {
+    grid-row-start: 1;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.headerleft{
+    grid-column-start: 1;
+    background-color: rgb(2, 49, 90);
+    border-radius: 100px 0px 0px 0px;
+}
+.h1{
+    grid-column-start: 2;
+    text-align: center;
+    background-color: rgb(97, 0, 0);
+    display:grid;
+    grid-template-rows: 1fr 10fr 1fr;
+    padding-top: 25px;
+}
+#milestone{
+    grid-row-start: 2;
+    background-color: rgb(46, 0, 153);
+    font-family: 'Architects Daughter', cursive;
+    font-size: 3em;
+    margin-bottom: 50px;
+}
+
+.headerright{
+    grid-column-start: 3;
+    background-color: rgb(2, 49, 90);
+    border-radius: 0px 100px 0px 0px;
+}
+main {
+    grid-row-start: 2;
+    display:grid;
+    grid-template-columns: 1fr 5fr 1fr;
+}
+.left{
+    grid-column-start: 1;
+    background-color: rgb(2, 49, 90);
+}
+.middle{
+    grid-column-start: 2;
+    background-color: rgb(97, 0, 0);
+    display:flex;
+    justify-content: space-between;
+}
+.right{
+    grid-column-start: 3;
+    background-color: rgb(2, 49, 90);
+}
+footer {
+    grid-row-start: 3;
+    display:grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.footerleft{
+    grid-column-start: 1;
+    background-color: rgb(2, 49, 90);
+    border-radius: 0px 0px 0px 100px;
+}
+.footermiddle{
+    grid-column-start: 2;
+    background-color: rgb(97, 0, 0);
+}
+.footerright{
+    grid-column-start: 3;
+    background-color: rgb(2, 49, 90);
+    border-radius: 0px 0px 100px 0px;
+}
+#buttons{
+    grid-row-start: 3;
+    display:flex;
+    justify-content: center;
+}
+#button {
+    margin-right: 50px;
+}
